@@ -24,6 +24,8 @@ const routes: Routes = [
   { path: 'refresher', loadChildren: './pages/refresher/refresher.module#RefresherPageModule' },
   { path: 'search', loadChildren: './pages/search/search.module#SearchPageModule' },
   { path: 'sgment', loadChildren: './pages/sgment/sgment.module#SgmentPageModule' },
+  { path: 'slides', loadChildren: './pages/slides/slides.module#SlidesPageModule' },
+  { path: 'tabs', loadChildren: './pages/tabs/tabs.module#TabsPageModule' },
   
   
 ];
